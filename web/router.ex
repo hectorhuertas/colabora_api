@@ -5,7 +5,9 @@ defmodule ColaboraApi.Router do
     plug :accepts, ["json"]
   end
 
-  scope "/api", ColaboraApi do
+  scope "/api/v1", ColaboraApi do
     pipe_through :api
+
+    get "/notes", NoteController, :index
   end
 end
