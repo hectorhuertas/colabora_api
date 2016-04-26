@@ -3,7 +3,7 @@ Author: Hector Huertas
 
 Colabora API is the backend of Colabora, a team collaboration tool.
 
-*Add link to live api url once deployed*
+[Production API](https://colabora-api.herokuapp.com/api/v1/notes)
 
 *Add link to live ember client once deployed*
 
